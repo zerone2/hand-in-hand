@@ -1,6 +1,17 @@
 .section2, .section4, .section6, .section8 {
     background: #f5f6f7
 }
+.nav-btn {
+    background-color: #333333;
+}
+.hover-btn {
+    cursor: pointer;
+    font-weight: bold;
+}
+.hover-btn:hover {
+    background: #ffec50;
+    color: #333333;
+}
 .title_line {
     height: 8px;
     border-radius: 8px;
@@ -21,11 +32,4 @@
 .flow-box-small > .box-left {
     min-width: 150px;
     width: 150px;
-}
-.hover-btn {
-    cursor: pointer;
-}
-.hover-btn:hover {
-    background: #ffec50;
-    color: #333333;
 }

@@ -7,7 +7,7 @@ const Section3 = forwardRef((props, ref) => {
         <p>챌린지 주제</p>
         <div className={'title_line mt-1'} />
       </div>
-      <div className={'mt-14 text-xl px-60'}>
+      <div className={'mt-14 px-60 text-xl font-bold leading-10'}>
         (주)테스트웍스에서 제공하는 한국 수어영상 데이터를 활용하여 다양한 분야에서 활용 가능한 인공지능 서비스 구상 및 데모 개발
       </div>
       <div style={{ width: 960 }} className={'flex flex-col justify-center items-center mt-12'}>
@@ -46,6 +46,7 @@ const Section3 = forwardRef((props, ref) => {
         className={
           'hover-btn mt-14 py-6 px-12 flex flex-row flex-nowrap justify-center items-center border-solid rounded-full border-2 border-gray-700 text-xl'
         }
+        onClick={() => window.open('https://bit.ly/hihc2020-data')}
       >
         샘플 데이터 보러가기
       </div>

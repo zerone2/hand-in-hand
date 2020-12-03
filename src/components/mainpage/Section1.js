@@ -1,15 +1,13 @@
 import React, { forwardRef } from 'react'
 import mainImg from 'assets/images/HandinHand_full_illustration.png'
 import titleImg from 'assets/images/HandinHandChallenge-title.png'
-// import topUnderlineImg from 'assets/images/title_underline_top.png'
-// import bottomUnderlineImg from 'assets/images/title_underline_bottom.png'
 import './section.css'
 
 const AnchorBtns = ({ topics, refs, onClick }) => {
   return (
     <div className={'my-24 flex flex-row justify-center items-center'}>
       {topics.map((topic, idx) => (
-        <div className={'hover-btn rounded-3xl bg-black text-white text-lg py-6 px-12 mx-3'} onClick={() => onClick(refs[idx])}>
+        <div className={'nav-btn hover-btn rounded-full text-white text-lg py-6 px-12 mx-3'} onClick={() => onClick(refs[idx])}>
           {topic}
         </div>
       ))}
@@ -24,14 +22,8 @@ const Section1 = forwardRef((props, ref) => {
     <>
       <div className={'container mx-auto pt-20 pb-16 max-w-screen-xl flex flex-row flex-nowrap justify-between items-center'} ref={ref}>
         <img src={mainImg} alt={'main'} style={{ width: 700, marginLeft: '-30px' }} />
-        <div className={'flex flex-col flex-nowrap mr-16'}>
+        <div className={'flex flex-col flex-nowrap items-end mr-16'}>
           <img src={titleImg} alt={'title'} />
-          {/*<div className={'text-7xl text-right font-black'}>*/}
-          {/*  <p>Hand In Hand</p>*/}
-          {/*  <img src={topUnderlineImg} style={{ width: 505, float: 'right' }} alt={'underline'} />*/}
-          {/*  <p>Challenge</p>*/}
-          {/*  <img src={bottomUnderlineImg} style={{ width: 385, float: 'right' }} alt={'underline'} />*/}
-          {/*</div>*/}
           <div className={'mt-8 text-right font-bold text-lg'}>
             <p>수어(手語/Sign language) 데이터를 활용한 </p>
             <p>베리어프리 서비스 디자인 챌린지</p>
@@ -43,6 +35,12 @@ const Section1 = forwardRef((props, ref) => {
               (총 3팀)
             </p>
           </div>
+          <button
+            className={'hover-btn mt-4 px-4 py-4 border-solid border-2 border-gray-800 rounded-full focus:outline-none'}
+            onClick={() => window.open('https://bit.ly/hihc2020')}
+          >
+            참가의향서 접수하기
+          </button>
         </div>
       </div>
       <AnchorBtns topics={topics} refs={refs} onClick={onClick} />

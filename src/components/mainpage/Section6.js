@@ -18,10 +18,11 @@ const Section6 = forwardRef((props, ref) => {
           <div className={'w-full'}>300만원</div>
           <div className={'w-full'}>100만원</div>
         </div>
-        <ul className={'w-full mt-8 list-inside list-disc text-left text-xl font-normal'}>
+        <ul className={'w-full mt-8 list-inside list-disc text-left text-xl font-bold'}>
           <li>결선 진출팀 전원 기계식 키보드 제공</li>
           <li className={'mt-2'}>
-            결선 진출팀에 DGX A100 1core 1week 제공<span className={'ml-2 py-2 px-6 bg-gray-200 rounded-full text-base'}>커먼 컴퓨터 후원</span>
+            결선 진출팀에 DGX A100 1core 1week 제공
+            <span className={'ml-2 py-2 px-6 bg-gray-200 rounded-full text-base font-normal'}>커먼 컴퓨터 후원</span>
           </li>
         </ul>
       </div>
