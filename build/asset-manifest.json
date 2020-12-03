@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4a7ac06.chunk.css",
-    "main.js": "/static/js/main.718cb10e.chunk.js",
-    "main.js.map": "/static/js/main.718cb10e.chunk.js.map",
+    "main.css": "/static/css/main.4493f9ca.chunk.css",
+    "main.js": "/static/js/main.2e14f907.chunk.js",
+    "main.js.map": "/static/js/main.2e14f907.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d9e79f40.js",
     "runtime-main.js.map": "/static/js/runtime-main.d9e79f40.js.map",
     "static/js/2.69956b91.chunk.js": "/static/js/2.69956b91.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.113c91e5.chunk.js": "/static/js/3.113c91e5.chunk.js",
     "static/js/3.113c91e5.chunk.js.map": "/static/js/3.113c91e5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f4a7ac06.chunk.css.map": "/static/css/main.f4a7ac06.chunk.css.map",
+    "static/css/main.4493f9ca.chunk.css.map": "/static/css/main.4493f9ca.chunk.css.map",
     "static/js/2.69956b91.chunk.js.LICENSE.txt": "/static/js/2.69956b91.chunk.js.LICENSE.txt",
     "static/media/HandinHand_full_illustration.4a1bb0f8.png": "/static/media/HandinHand_full_illustration.4a1bb0f8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d9e79f40.js",
     "static/js/2.69956b91.chunk.js",
-    "static/css/main.f4a7ac06.chunk.css",
-    "static/js/main.718cb10e.chunk.js"
+    "static/css/main.4493f9ca.chunk.css",
+    "static/js/main.2e14f907.chunk.js"
   ]
 }
