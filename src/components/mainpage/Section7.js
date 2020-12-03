@@ -15,24 +15,26 @@ const Section7 = () => {
         <p>함께하는 곳</p>
         <div className={'title_line mt-1'} />
       </div>
-      <div style={{ width: 960 }} className={'flex flex-col justify-center mt-16'}>
-        <div className={'w-full flex flex-row justify-between items-center font-bold text-center'}>
-          <div style={{ width: 304 }} className={'flex flex-col items-center'}>
-            <div className={'w-full py-1 mb-12 text-lg bg-gray-100 rounded-3xl'}>주최</div>
+      <div className={'flex flex-col justify-center mt-16 p-8'}>
+        <div className={'w-full flex flex-col sm:flex-row flex-nowrap justify-between items-center font-bold text-center'}>
+          <div className={'flex flex-col mb-8 sm:mb-0 items-center'}>
+            <div className={'w-full py-1 mb-2 sm:mb-12 text-lg bg-gray-100 rounded-3xl'}>주최</div>
             <img src={testworksLogo} alt={'test works'} />
           </div>
-          <div style={{ width: 304 }} className={'flex flex-col items-center'}>
-            <div className={'w-full py-1 mb-12 text-lg bg-gray-100 rounded-3xl'}>주관</div>
+
+          <div className={'flex flex-col mb-8 sm:mb-0 items-center'}>
+            <div className={'w-full py-1 mb-4 sm:mb-12 text-lg bg-gray-100 rounded-3xl'}>주관</div>
             <img src={comcomLogo} alt={'common computer'} />
           </div>
-          <div style={{ width: 304 }} className={'flex flex-col items-center'}>
-            <div className={'w-full py-1 mb-12 text-lg bg-gray-100 rounded-3xl'}>후원</div>
+
+          <div className={'flex flex-col mb-8 sm:mb-0 items-center'}>
+            <div className={'w-full py-1 mb-4 sm:mb-12 text-lg bg-gray-100 rounded-3xl'}>후원</div>
             <img src={niaLogo} alt={'NIA'} />
           </div>
         </div>
         <div className={'w-full flex flex-col items-center mt-16'}>
-          <div className={'w-full py-1 mb-12 text-lg bg-gray-100 rounded-3xl font-bold'}>참여기업</div>
-          <div className={'flex flex-row flex-nowrap items-center'}>
+          <div className={'w-full py-1 mb-4 sm:mb-12 text-lg bg-gray-100 rounded-3xl font-bold'}>참여기업</div>
+          <div className={'flex flex-col sm:flex-row flex-nowrap items-center'}>
             <img src={eq4allLogo} alt={'EQ4ALL'} />
             <img src={kaistLogo} alt={'KAIST'} />
             <img src={kadLogo} alt={'KAD'} />
