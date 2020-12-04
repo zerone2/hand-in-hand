@@ -5,7 +5,7 @@ import './section.css'
 
 const AnchorBtns = ({ topics, refs, onClick }) => {
   return (
-    <div className={'container mx-auto my-24 flex flex-col md:flex-row flex-nowrap justify-center items-center px-8 lg:px-16'}>
+    <div className={'max-w-screen-lg container mx-auto my-24 flex flex-col md:flex-row flex-nowrap justify-center items-center px-8 lg:px-16'}>
       {topics.map((topic, idx) => (
         <div className={'w-full nav-btn hover-btn rounded-full text-white text-lg py-6 px-6 mx-3 mb-2 md:mb-0'} onClick={() => onClick(refs[idx])}>
           {topic}
@@ -24,7 +24,7 @@ const Section1 = forwardRef((props, ref) => {
         <div className={'flex-1 mt-16 p-8 max-w-screen-lg'}>
             <img src={mainImg} alt={'main'} />
         </div>
-        <div className={'flex flex-col flex-nowrap items-end mr-16 p-8'}>
+        <div className={'flex flex-col flex-nowrap items-end p-8'}>
           <img src={titleImg} alt={'title'} />
           <div className={'mt-8 text-right font-bold text-md sm:text-lg'}>
             <p>수어(手語/Sign language) 데이터를 활용한 </p>
