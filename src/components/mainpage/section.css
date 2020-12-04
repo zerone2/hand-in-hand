@@ -1,5 +1,9 @@
-.section2, .section4, .section6, .section8 {
-    background: #f5f6f7
+.section2,
+.section4,
+.section6,
+.section8 {
+  width: 100%;
+  background: #f5f6f7;
 }
 .nav-btn {
     background-color: #333333;
@@ -13,23 +17,26 @@
     color: #333333;
 }
 .title_line {
-    height: 8px;
-    border-radius: 8px;
-    background: #54c2ff;
+  height: 8px;
+  border-radius: 8px;
+  background: #54c2ff;
 }
-.flow-box {
+
+@media only screen and (min-width: 640px) {
+  .flow-box {
     width: 832px;
     height: 140px;
-}
-.flow-box-small {
+  }
+  .flow-box-small {
     width: 400px;
     height: 140px;
-}
-.flow-box > .box-left {
+  }
+  .flow-box > .box-left {
     min-width: 150px;
     width: 150px;
-}
-.flow-box-small > .box-left {
+  }
+  .flow-box-small > .box-left {
     min-width: 150px;
     width: 150px;
+  }
 }

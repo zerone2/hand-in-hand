@@ -18,7 +18,7 @@ const Section2 = forwardRef((props, ref) => {
       </div>
       <div
         className={
-          'hover-btn mt-10 py-6 px-12 flex flex-row flex-nowrap justify-center items-baseline border-solid rounded-full border-2 border-gray-700 text-xl'
+          'hover-btn mt-10 py-3 px-6 sm:py-6 sm:px-12 flex flex-row flex-nowrap justify-center items-baseline border-solid rounded-full border-2 border-gray-700 text-xl'
         }
         onClick={() => setShow(true)}
       >
@@ -26,7 +26,7 @@ const Section2 = forwardRef((props, ref) => {
         <img src={playIcon} alt={'play'} style={{ marginLeft: 5, width: 15.5, height: 15.5 }} />
       </div>
       <Modal visible={show} onClose={() => setShow(false)}>
-        <div className={'relative w-1/3 rounded-3xl py-24 bg-white text-2xl text-gray-800 font-bold'}>
+        <div className={'relative sm:w-1/3 rounded-3xl p-16 sm:py-24 bg-white text-2xl text-gray-800 font-bold'}>
           <img src={closeIcon} onClick={() => setShow(false)} alt={'close'} className={'absolute top-3 right-3'} />
           영상이 준비중입니다.
         </div>
