@@ -24,7 +24,7 @@ const Section1 = forwardRef((props, ref) => {
         <div className={'flex-1 mt-16 p-8 max-w-screen-lg'}>
             <img src={mainImg} alt={'main'} />
         </div>
-        <div className={'flex flex-col flex-nowrap items-end p-8'}>
+        <div className={'flex flex-col flex-nowrap items-end p-4 sm:p-8'}>
           <img src={titleImg} alt={'title'} />
           <div className={'mt-8 text-right font-bold text-md sm:text-lg'}>
             <p>수어(手語/Sign language) 데이터를 활용한 </p>

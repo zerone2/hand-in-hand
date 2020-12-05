@@ -59,7 +59,7 @@ const Section5 = forwardRef((props, ref) => {
           <img src={nextIcon} alt={'next'} className={'transform rotate-90 sm:rotate-0'} style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }} />
         </div>
 
-        <div className={'w-full flex flex-col sm:flex-row justify-center items-center mt-0 sm:mt-8'}>
+        <div className={'w-full flex flex-col sm:flex-row justify-center sm:justify-start items-center mt-0 sm:mt-8'}>
           <div className={'flow-box-small w-full h-full flex flex-col sm:flex-row items-center'}>
             <div className={'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'}>멘토링</div>
             <div className={'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'}>
@@ -81,7 +81,7 @@ const Section5 = forwardRef((props, ref) => {
               </div>
             </div>
           </div>
-          <img src={nextIcon} alt={'next'} className={'transform rotate-90 sm:rotate-0'} style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }} />
+          {/*<img src={nextIcon} alt={'next'} className={'transform rotate-90 sm:rotate-0'} style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }} />*/}
         </div>
       </div>
     </div>
