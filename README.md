@@ -8,3 +8,5 @@ In the project directory, you can run:
 
 ### 1. `yarn` or `npm install`
 ### 2. `yarn start`or `npm start`
+
+logo update - 20201205
