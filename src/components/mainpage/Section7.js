@@ -1,4 +1,5 @@
 import React from 'react'
+import iitpLogo from 'assets/images/IITP_logo.png'
 import testworksLogo from 'assets/images/testworks_logo.png'
 import comcomLogo from 'assets/images/comcom_logo.png'
 import niaLogo from 'assets/images/NIA_logo.png'
@@ -16,20 +17,23 @@ const Section7 = () => {
         <div className={'title_line mt-1'} />
       </div>
       <div className={'flex flex-col justify-center mt-16 p-8'}>
-        <div className={'w-full flex flex-col sm:flex-row flex-nowrap justify-between items-center font-bold text-center'}>
+        <div className={'w-full flex flex-col sm:flex-row flex-nowrap justify-between items-center sm:items-start font-bold text-center'}>
           <div className={'flex flex-col mb-8 sm:mb-0 items-center'}>
-            <div className={'w-full py-1 mb-2 sm:mb-12 text-lg bg-gray-100 rounded-3xl'}>주최</div>
+            <div className={'w-full py-1 mb-2 sm:mb-14 text-lg bg-gray-100 rounded-3xl'}>주최</div>
+            <div>
+              <img src={iitpLogo} alt={'IITP'} className={'mb-2'} />
+              <img src={niaLogo} alt={'NIA'} />
+            </div>
+          </div>
+
+          <div className={'flex flex-col mb-8 sm:mb-0 items-center'}>
+            <div className={'w-full py-1 mb-4 sm:mb-14 text-lg bg-gray-100 rounded-3xl'}>주관</div>
             <img src={testworksLogo} alt={'test works'} />
           </div>
 
           <div className={'flex flex-col mb-8 sm:mb-0 items-center'}>
-            <div className={'w-full py-1 mb-4 sm:mb-12 text-lg bg-gray-100 rounded-3xl'}>주관</div>
+            <div className={'w-full py-1 mb-4 sm:mb-14 text-lg bg-gray-100 rounded-3xl'}>운영</div>
             <img src={comcomLogo} alt={'common computer'} />
-          </div>
-
-          <div className={'flex flex-col mb-8 sm:mb-0 items-center'}>
-            <div className={'w-full py-1 mb-4 sm:mb-12 text-lg bg-gray-100 rounded-3xl'}>후원</div>
-            <img src={niaLogo} alt={'NIA'} />
           </div>
         </div>
         <div className={'w-full flex flex-col items-center mt-16'}>
