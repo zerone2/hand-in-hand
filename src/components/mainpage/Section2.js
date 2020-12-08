@@ -12,13 +12,13 @@ const Section2 = forwardRef((props, ref) => {
         <p>챌린지 개요</p>
         <div className={'title_line mt-1'} />
       </div>
-      <div className={'mt-14 px-36 text-xl font-bold leading-10'}>
+      <div className={'mt-14 px-8 text-xl font-bold leading-10 max-w-screen-lg'}>
         2020 인공지능 학습용 데이터 구축 사업을 통해 준비된 한국 수어영상 데이터를 사용하여 대중교통·교육·문화생활·거주 등 일상 생활 및 전문 분야에서
         활용 가능한 서비스 구상 및 데모 개발 수행
       </div>
       <div
         className={
-          'hover-btn mt-10 py-6 px-12 flex flex-row flex-nowrap justify-center items-baseline border-solid rounded-full border-2 border-gray-700 text-xl'
+          'hover-btn mt-10 py-3 px-6 sm:py-6 sm:px-12 flex flex-row flex-nowrap justify-center items-baseline border-solid rounded-full border-2 border-gray-700 text-xl'
         }
         onClick={() => window.open('https://www.youtube.com/watch?v=64ATtbPUr9E&list=PL45advBdu3AjXtxH6ALWYnUP6Ta1_JJpc', '_blank')}
       >

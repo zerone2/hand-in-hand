@@ -10,7 +10,7 @@ const Section8 = () => {
       </div>
       <div className={'flex flex-row justify-center items-center mt-10'}>
         <img src={emailIcon} alt={'email'} />
-        <p className={'ml-4 text-2xl'}>2020.hihc@gmail.com</p>
+        <p className={'ml-4 text-xl sm:text-2xl'}>2020.hihc@gmail.com</p>
       </div>
     </div>
   )
