@@ -12,8 +12,18 @@ const Section5 = forwardRef((props, ref) => {
       <div className={'flex flex-col items-center mt-16'}>
         <div className={'w-full flex flex-col sm:flex-row justify-center items-center'}>
           <div className={'flow-box w-full h-full flex flex-col sm:flex-row items-center'}>
-            <div className={'p-4 box-left w-full sm:w-1/4 sm:h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'}>모집</div>
-            <div className={'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'}>
+            <div
+              className={
+                'p-4 box-left w-full sm:w-1/4 sm:h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'
+              }
+            >
+              모집
+            </div>
+            <div
+              className={
+                'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'
+              }
+            >
               <div className={'p-4 sm:p-0 sm:ml-8'}>
                 <p className={'mb-2 font-bold'}>참가의향서 접수</p>
                 <a href={'https://bit.ly/hihc2020'} style={{ color: '#48beef' }} className={'font-bold hover:underline'}>
@@ -27,13 +37,28 @@ const Section5 = forwardRef((props, ref) => {
               </div>
             </div>
           </div>
-          <img src={nextIcon} alt={'next'} className={'transform rotate-90 sm:rotate-0'} style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }} />
+          <img
+            src={nextIcon}
+            alt={'next'}
+            className={'transform rotate-90 sm:rotate-0'}
+            style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }}
+          />
         </div>
 
         <div className={'w-full flex flex-col sm:flex-row justify-center items-center mt-0 sm:mt-8'}>
           <div className={'flow-box-small w-full h-full flex flex-col sm:flex-row items-center'}>
-            <div className={'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'}>1차 평가</div>
-            <div className={'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'}>
+            <div
+              className={
+                'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'
+              }
+            >
+              1차 평가
+            </div>
+            <div
+              className={
+                'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'
+              }
+            >
               <div className={'p-4 sm:p-0 sm:ml-8'}>
                 <p className={'mb-2 text-lg font-bold'}>12월 17일(목)</p>
                 <p>서류 평가 진행</p>
@@ -41,28 +66,54 @@ const Section5 = forwardRef((props, ref) => {
               </div>
             </div>
           </div>
-          <img src={nextIcon} alt={'next'} className={'transform rotate-90 sm:rotate-0'} style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }} />
+          <img
+            src={nextIcon}
+            alt={'next'}
+            className={'transform rotate-90 sm:rotate-0'}
+            style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }}
+          />
           <div className={'flow-box-small w-full h-full flex flex-col sm:flex-row items-center'}>
             <div
-              className={'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl px-10 text-left'}
+              className={
+                'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl px-10 text-left'
+              }
             >
               1차 평가 발표
             </div>
-            <div className={'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'}>
+            <div
+              className={
+                'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'
+              }
+            >
               <div className={'p-4 sm:p-0 sm:ml-8'}>
                 <p className={'mb-2 text-lg font-bold'}>12월 17일(목) 18시 00분</p>
-                <p>대학 공고 페이지를</p>
+                <p>대회 공고 페이지를</p>
                 <p className={'mt-2'}>통해 발표</p>
               </div>
             </div>
           </div>
-          <img src={nextIcon} alt={'next'} className={'transform rotate-90 sm:rotate-0'} style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }} />
+          <img
+            src={nextIcon}
+            alt={'next'}
+            className={'transform rotate-90 sm:rotate-0'}
+            style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }}
+          />
         </div>
 
         <div className={'w-full flex flex-col sm:flex-row justify-center sm:justify-start items-center mt-0 sm:mt-8'}>
           <div className={'flow-box-small w-full h-full flex flex-col sm:flex-row items-center'}>
-            <div className={'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'}>멘토링</div>
-            <div className={'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'}>
+            <div
+              className={
+                'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'
+              }
+            >
+              멘토링
+            </div>
+            <div
+              className={
+                'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'
+              }
+            >
               <div className={'p-4 sm:p-0 sm:ml-8'}>
                 <p className={'mb-2 text-lg font-bold'}>12월 18일(금)</p>
                 <p>참가기업과 전문가</p>
@@ -70,10 +121,25 @@ const Section5 = forwardRef((props, ref) => {
               </div>
             </div>
           </div>
-          <img src={nextIcon} alt={'next'} className={'transform rotate-90 sm:rotate-0'} style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }} />
+          <img
+            src={nextIcon}
+            alt={'next'}
+            className={'transform rotate-90 sm:rotate-0'}
+            style={{ width: 32, height: 32, marginTop: '1rem', marginBottom: '1rem' }}
+          />
           <div className={'flow-box-small w-full h-full flex flex-col sm:flex-row items-center'}>
-            <div className={'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'}>최종 발표</div>
-            <div className={'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'}>
+            <div
+              className={
+                'p-4 box-left w-full sm:w-1/2 h-full flex justify-center items-center bg-gray-800 text-lg text-white font-bold rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl'
+              }
+            >
+              최종 발표
+            </div>
+            <div
+              className={
+                'box-right w-full h-full bg-gray-100 flex flex-row justify-start items-center text-left rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl'
+              }
+            >
               <div className={'p-4 sm:p-0 sm:ml-8'}>
                 <p className={'mb-2 text-lg font-bold'}>12월 20일(일)</p>
                 <p className={'text-lg font-bold'}>오후 3시 ~ 6시</p>
